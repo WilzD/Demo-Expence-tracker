@@ -25,17 +25,25 @@
             </select>
             <label for="">Add Description</label>
             <input type="text" id="desc" class="form-control">
-            <button id="btn" type="submit" class="mt-4"> Send</button>
+            <button id="AddBtn" type="submit" class="mt-4"> Add Expence</button>
+            <button id="UpdateBtn" type="submit" class="mt-4"> Update Expence</button>
           </div>
         </div>
 
-        <div class="card card-body mt-4">
-            <ul id="items" class="list-group">
-                <li class="list-group-item">
-                    <button class="btn btn-warning  btn-sm float-right edit">Edit Expence</button>
-                    <button class="btn btn-danger  btn-sm float-right delete">Delete Expence</button>
-                </li>
-            </ul>
+        <div class="card card-body mt-4 ">
+            <table class="table" id="crudTable">
+                <thead>
+                  <tr>
+                    <th>No.</th>
+                    <th>Expence</th>
+                    <th>Category</th>
+                    <th>Desc</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
         </div>
 
         
